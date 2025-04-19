@@ -4,7 +4,7 @@ const user_id = localStorage.getItem('userIdTokenized');
 initializePage();
 
 async function initializePage() {
-    if (user_id != null) {
+    if (user_id != 0) {
 
         let response = await getHistory();
         hexColors = await response.json();
@@ -27,6 +27,7 @@ async function getHistory() {
   }
 
 function populatePage() {
+
     const colorHist = document.querySelector('.login');
     colorHist.innerHTML = "";
 
