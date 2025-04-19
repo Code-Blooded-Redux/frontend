@@ -1,4 +1,6 @@
-document.getElementById('login-form').addEventListener('.submit', async function (event) {
+document
+  .getElementById('login-form')
+  .addEventListener('submit', async function (event) {
     event.preventDefault();
 
     // Get values from input fields
