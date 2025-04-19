@@ -5,8 +5,9 @@
         Color Roulette
     </title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="signup.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="../images/logo_whitebg.png">
 </head>
 <body>
     <div class="topnav">
@@ -73,18 +74,19 @@
                     </span>
                 </p>
             </div>
-            <div class="input-box">
-                <i class='bx bxs-user'></i>
-                <input type="text" id="password" placeholder="Username" required>
+            <div class="input-box" id="userdiv">
+                <input type="text" id="username" placeholder="Username" required>
             </div>
             <div class="input-box">
-                <i class='bx bxs-lock-alt'></i>
                 <input type="password" id="password" placeholder="Password" required>
+            </div>
+            <div id="pass" class="input-box">
+                <input type="password" id="password2" placeholder="Confirm Password" required>
             </div>
             <button type="submit" class="btn">Login</button>
             <div class="register-link">
                 <p>
-                    Don't Have An Account? <a href="signup.html">Register</a>
+                    Have An Account? <a href="signin.html">Sign In Here</a>
                 </p>
             </div>
             <div class="guest-link">

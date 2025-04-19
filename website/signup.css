@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+}
+
+.login-wrapper{
+    border: none;
+    border-radius: 15px;
+    width: 350px;
+    padding: 10px 50px;
+    box-shadow: 0 0 20px lightgray;
+
+}
+
+.login-wrapper #logo{
+    text-align: center;
+}
+
+.login-wrapper #logo img{
+    height: 100px;
+}
+
+#logo p{
+    margin-bottom: 20px;
+}
+
+.c, .e{
+    color: #EE1E26;
+}
+.o{
+    color: #F05725;
+}
+.l{
+    color: #F98F1F;
+}
+.lo{
+    color: #32B452;
+}
+.r, .rr, .ro{
+    color: #1B907D;
+}
+.u{
+    color: #4066B1;
+}
+.ul, .le{
+    color: #772F93;
+}
+.t, .tt{
+    color:  #9F3F99;
+}
+
+.login-wrapper .input-box{
+    width: 100%;
+    height: 50px;
+}
+
+#userdiv{
+    margin-bottom: 10px;
+}
+
+#pass{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 0;
+    height: 50px;
+}
+
+.login-wrapper .btn{
+    width: 100%;
+    height: 35px;
+    background-color: white;
+    border: 2px solid lightgray;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.login-wrapper .register-link{
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.login-wrapper .guest-link{
+    text-align: center;
+}
+
+.login-wrapper .guest-link p a{
+    color: #808080;
+}
+
+.login-wrapper .guest-link{
+    padding-bottom: 10px;
+}

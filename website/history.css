@@ -1,0 +1,39 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+}
+
+.color-hist {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    padding: 40px;
+    justify-items: center;
+}
+
+.color-hist .color-card {
+    height: 350px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    overflow: hidden;
+    background-color: white;
+    font-family: sans-serif;
+}
+.color-hist .color-block {
+    height: 70%;
+    width: 100%;
+}
+.color-hist .color-info {
+    height: 20%;
+    background: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -1,0 +1,64 @@
+.overall {
+    display: flex;
+    flex-direction: column; /* Make children stack vertically */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+}
+
+.title {
+    margin-bottom: 20px; /* Optional spacing between title and color card */
+    text-align: center;
+    font-size: 50px;
+}
+
+.c, .y{
+    color: #EE1E26;
+}
+.o{
+    color: #F05725;
+}
+.l{
+    color: #F98F1F;
+}
+.lo{
+    color: #32B452;
+}
+.r, .of, .f{
+    color: #1B907D;
+}
+.t{
+    color: #4066B1;
+}
+.h, .e{
+    color: #772F93;
+}
+.d, .a{
+    color:  #9F3F99;
+}
+
+.color-card {
+    height: 350px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    overflow: hidden;
+    background-color: white;
+    font-family: sans-serif;
+}
+.color-block {
+    height: 70%;
+    width: 100%;
+    background-color: #abed19;
+}
+.color-info {
+    height: 20%;
+    background: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}

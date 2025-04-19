@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    overflow: hidden;
 }
 
 body form{
@@ -21,6 +22,7 @@ body form{
     width: 350px;
     padding: 10px 50px;
     box-shadow: 0 0 20px lightgray;
+    background-color: white;
 
 }
 
@@ -30,6 +32,10 @@ body form{
 
 .login-wrapper #logo img{
     height: 100px;
+}
+
+#logo p{
+    margin-bottom: 20px;
 }
 
 .c, .e{
@@ -57,7 +63,6 @@ body form{
     color:  #9F3F99;
 }
 
-
 .login-wrapper .input-box{
     width: 100%;
     height: 50px;
@@ -71,8 +76,9 @@ body form{
     border: 2px solid lightgray;
     border-radius: 10px;
     height: 40px;
-    margin-bottom: 10px;
     padding-left: 10px;
+    margin-bottom: 0;
+    height: 50px;
 }
 
 .login-wrapper .btn{
@@ -86,7 +92,9 @@ body form{
     margin-top: 10px;
 }
 
+
 .login-wrapper .register-link{
+    font-size: 15px;
     margin-bottom: 5px;
     text-align: center;
 }
