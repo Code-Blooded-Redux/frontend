@@ -1,0 +1,68 @@
+body{
+    line-height: 1.5;
+}
+
+.topnav{
+    z-index: 4;
+    position: absolute;
+    padding: 0;
+    height: 56px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    right: 0;
+    max-width: 1750px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    height: 48px;
+    padding: 4px 16px;
+    display: block;
+    outline: 0;
+    float: left;
+}
+
+nav{
+    padding: 0;
+    display: block;
+    float: left;
+    max-width: 1756px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.left{
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    padding: 16px 16px;
+}
+
+.signIn{
+    padding: 8px 16px;
+    position: relative;
+    float: right;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    padding: 16px 16px;   
+    margin-right: 20px;
+}
+
+a:hover{
+    background-color: lightgray;
+}
