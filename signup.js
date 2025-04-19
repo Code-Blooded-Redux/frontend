@@ -6,7 +6,7 @@ document
     // Get values from input fields
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
-    const confirmPassword = document.getElementById('password2').value;
+    const password2 = document.getElementById('password2').value;
 
     if (password !== password2) {
       alert('Passwords do not match!');
